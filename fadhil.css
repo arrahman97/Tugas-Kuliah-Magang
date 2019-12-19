@@ -1,0 +1,65 @@
+.boxlogin {width:439px;height: 258px;background:rgba(127,198,150,0.9);margin:10% auto;text-align: center;padding-top:9px;font-family: 'Arial Black' !important;}
+	
+	.kotakisian {margin:4px 0 9px 0px;width:72%;height:30px;padding:5px;}
+
+	.kotakisian2 {margin:4px 0 9px 0px;height:30px;padding:5px;}
+	
+	label {margin-left: 0px;font-family: verdana;text-transform: capitalize;}
+
+	label.besar {text-transform: uppercase;}
+
+	.kotaktombol {padding:4px 9px;width:85px;cursor: pointer;margin-bottom: 9px;}
+
+.menusamping {width:224px;min-height: 100%;background: rgba(200,200,200,0.86);position: fixed;}
+
+.menusamping .logo {width:50%;margin:13px 0 0 24%;}
+
+.menusamping div {width:100%;margin-bottom: 9px;}
+.menusamping .kotakgaris {height:1px;background: #444;margin-top:13px;}
+
+.menusamping .kotakmenu {padding:7px 9px;width:97%;background: #036D23;color:#fff;text-transform: capitalize;font-family: arial;cursor: pointer;margin-bottom: 17px;}
+
+.menusamping .kotakmenu .sudut {width:11px;float:right;margin: 25px -8.5px 0 0;}
+
+.menusamping .kotakmenu:hover, .menusamping .kotakmenusekarang {color:#ffff00;}
+
+.menusamping .tomboltutup {width:auto;float:right;border-radius:50%;font-weight: bolder;font-family: "Arial Black";padding:2px 7px;background:#045b1e;cursor: pointer;margin: 4px -12px 0 0;color: #fff;}
+
+.logotop {width: 54px;position: absolute;margin: 10px 0 0 4%;cursor:pointer;}
+
+.kotakisiweb {padding:15px;min-height: 74%;background: rgba(200,200,200,0.6);box-shadow: 0 0 40px 1px #bbb;}
+
+.kotakisiweb .isinya {padding:5px;min-height: 74%;background: rgba(255,255,255,0.9);}
+
+.kotakisiweb .isinya h1,.kotakisiweb .isinya h2,.kotakisiweb .isinya h3,.kotakisiweb .isinya h4,.kotakisiweb .isinya h5,.kotakisiweb .isinya h6 {margin-top: 0px;}
+
+.kotakisiweb .isinya table {width:100%;border:0;}
+
+.kotakisiweb .isinya table th,.kotakisiweb .isinya table td {width:41%;padding:5px;color:#000;border-left:1px solid #007824;border-bottom:1px solid #007824;}
+
+.kotakisiweb .isinya table th {background:#0cef51;text-transform: capitalize;} .kotakisiweb .isinya table tr:first-child th {border-top:1px solid #007824;}
+
+.kotakisiweb .isinya table tr th:last-child,.kotakisiweb .isinya table td:last-child {border-right:1px solid #007824;text-align: center;}
+.kotakisiweb .isinya table th:first-child,.kotakisiweb .isinya table td:first-child {width:12%;text-align: center;}
+
+.iconcrud {width:16px;height: 16px;background-size:100% 100%;cursor: pointer;border:0;text-decoration: none;float:left;margin-right: 5px;}
+
+.crudtambah {background: url('iconplusz.png') no-repeat;} .crudedit {background: url('iconedit.png') no-repeat;}
+
+.crudprint {background: url('iconprint.png') no-repeat;} .crudhapus {background: url('icondelete.png') no-repeat;}
+
+@media (min-width:0) and (max-width: 900px) {
+.menusamping {display: none;}
+.menusamping .tomboltutup {display: block !important;}
+.logotop {display: block;}
+.kotakisiweb {margin: 30px auto 30px auto !important;width:86%;}
+.kotakisian2 {width:26%;}
+}
+	
+@media (min-width: 901px) {
+.menusamping {display: block !important;}
+.menusamping .tomboltutup {display: none !important;}
+.logotop {display: none !important;}	
+.kotakisiweb {margin: 30px 0 30px 261px;width:74%;}
+.kotakisian2 {width:36%;}
+}
